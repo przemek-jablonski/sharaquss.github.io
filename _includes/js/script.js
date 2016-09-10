@@ -13,7 +13,7 @@ $(document).ready(function(){
 
   setTimeout(function(){
     BackgroundCheck.refresh();
-  },300);
+  },200);
 
 });
 
@@ -34,7 +34,7 @@ function bindProjectNavArrows(){
 }
 
 function fadePageOut(targetHref){
-  $("#main").fadeOut(200, function(){
+  $("#main").fadeOut(1300, function(){
     $( "#main" ).load( targetHref + " #container #main", function(response, status, xhr){
       bindProjectNavArrows();
       var stateObj = {
@@ -42,20 +42,12 @@ function fadePageOut(targetHref){
       };
       document.title = $(response).filter("title").text();
       window.history.pushState(stateObj, document.title, targetHref);
-      $("#main").fadeIn(200);
+      $("#main").fadeIn(1300);
       bindPasswordDetect();
     });
   });
 }
 
 function fadePageIn(){
-  $("body").fadeIn(200);
-}
-
-function indexFadePageIn() {
-    $("body").fadeIn(2500);
-}
-
-function testFade() {
-    $("body").fadeIn(3000);
+  $("body").fadeIn(1300);
 }

@@ -427,8 +427,11 @@ td {
     margin-bottom: 30px;
   }
 
+  /* global margins for projects page (index) */
   .projects {
-    margin: 0 15px ;
+    margin-left: 100px;
+    margin-right: 100px;
+    /*margin: 0 15px ;*/
   }
 
   .projects li {
@@ -459,9 +462,9 @@ td {
     opacity: 0;
     top: 0;
     left: 0;
-    -webkit-transition: opacity 200ms linear;
-    -moz-transition: opacity 200ms linear;
-    transition: opacity 200ms linear;
+    -webkit-transition: opacity 700ms linear;
+    -moz-transition: opacity 700ms linear;
+    transition: opacity 300ms linear;
     background-color: rgba(255,255,255,0.9);
     text-align: center;
   }
@@ -854,7 +857,7 @@ td {
   @media only screen and (min-width: 1900px) {
     .projects li {
       width: 25%;
-    };
+    }
   }
 
 
@@ -900,8 +903,7 @@ td {
 
     img {
       max-width: 100% !important;
-    }
-    @    page {
+    } @page {
       margin: 0.5cm;
     }
 
@@ -912,5 +914,11 @@ td {
 
     h2, h3 {
       page-break-after: avoid;
-    };
+    }
   }
+
+
+
+
+
+

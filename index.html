@@ -16,7 +16,7 @@ title: Portfolio
             {{ post.worktype }}
           </span>
           <span>
-            View project
+            View projectsdasdasd
           </span>
         </div>
       </a>
@@ -27,15 +27,20 @@ title: Portfolio
           <span class="github-icon"></span>
         {% endif %}
       {% endif %}
-      {% if post.progress %}
-        <span class="progress">
-          <span class="under-construction"></span>
-          <span class="progress-bar" style="width: {{ post.progress }}%"></span>
-        </span>
-      {% endif %}
+      <!--{% if post.progress %}-->
+
+        <!--<span class="progress">-->
+          <!--<span class="under-construction"></span>-->
+          <!--<span class="progress-bar" style="width: {{ post.progress }}%"></span>-->
+        <!--</span>-->
+      <!--{% endif %}-->
       <img class="thumb" src="img/thumbs/{{ post.uid }}.jpg" />
       <div class="aspect-two-one"></div>
     </div>
+
+      <p>{{post.title}}</p>
+      <p>{{post.date}}</p>
+      <p>{{post.worktype}}</p>
   </li>
 {% endfor %}
 </ul>
