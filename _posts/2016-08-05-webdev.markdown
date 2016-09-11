@@ -9,4 +9,19 @@ date:   2016-08-05
 type:   Web Development
 shortdesc: Group of projects of various technologies, which can be categorized as 'webdev'.
 
+github: https://github.com/sharaquss/DjAngularJS
+github2: https://github.com/sharaquss/epmanagement
+github3: https://github.com/sharaquss/PortfolioPage
+opensource: https://github.com/sharaquss/PortfolioPage
+license: MIT
+platform: Android
+
 ---
+
+<p class="meta">Type: <strong>{{ page.type }}</strong>  |  Platform: <strong>{{page.platform}}</strong>  |  Open Source: <a href="{{page.github}}">GitHub (1)</a> <a href="{{page.github2}}">GitHub (2)</a> <a href="{{page.github3}}">GitHub (3)</a>  |  License: <strong>{{ page.license }}</strong></p>
+
+<p> Group of projects of various technologies, which can be categorized as 'webdev'. <p>
+
+<p> Projects span across static and dynamic websites in various technologies and languages, like PHP (Symfony2), Python (Django) and little bit of a Java (Spring). Used JQuery, AngularJS, JS, CSS, Jekyll as well as Bootstrap. </p>
+
+<p> Code can be found in the links above and on my repository page.</p>

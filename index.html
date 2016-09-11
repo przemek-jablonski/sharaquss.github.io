@@ -14,11 +14,12 @@ title: Portfolio
             {{ post.title }}
           </span>
           <span>
-            {{ post.worktype }}
+            ( {{ post.type }} )
           </span>
-          <span>
-            View projectsdasdasd
-          </span>
+          <br>
+          <span> <b>
+              View project details
+          </b> </span>
         </div>
       </a>
       {% if post.opensource %}
@@ -48,3 +49,8 @@ title: Portfolio
   </li>
 {% endfor %}
 </ul>
+
+
+
+<!-- todo, make more global margins -->
+<!-- todo, make bigger spaces between projects (especially on bigger screens)-->

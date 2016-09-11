@@ -9,4 +9,20 @@ date:   2016-09-09
 type:   Engineering Thesis Research
 shortdesc: Research and development of fully modular Procedural Algorithms family, designed for realtime 3D geometrical terrain generation. 
 
+github: https://github.com/sharaquss/AdaptiveWeather
+opensource: https://github.com/sharaquss/AdaptiveWeather
+license: MIT
+platform: Mac OSX, Linux
 ---
+
+<p class="meta">Type: <strong>{{ page.type }}</strong>  |  Platform: <strong>{{page.platform}}</strong>  |  Open Source: <a href="{{page.github}}">GitHub</a>  |  License: <strong>{{ page.license }}</strong></p>
+
+<p>My Engineering (BSc) Thesis (research and dev project).</p>
+
+<p>{{page.shortdesc}}</p>
+
+<p>My Engineering Thesis consists of research for most efficient, naturalistic and clever Procedural Algorithms group, which are together bundled into fully modular generator of 3D geometrical maps/terrains/landmasses.</p>
+
+<p>Generator result is 3 dimensional, texturised, geometrical mesh, which can be used in video games, maps or in other creative way.</p>
+
+<p>So (if you are into the topic) it's basically No Man's Sky, without a space. But I was first, duh</p>

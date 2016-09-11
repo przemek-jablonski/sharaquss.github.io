@@ -1,5 +1,5 @@
 ---
-layout: post-narrow
+layout: post-wide
 hero-bg-color: "#f7f7f7"
 categories: project
 
@@ -9,5 +9,32 @@ date:   2016-09-11
 type:   Mobile
 shortdesc: Smarter Android client for Spotify streaming service. Built with Spotify SDK and their proprietary API.
 
+github: https://github.com/sharaquss/Betterfy
+opensource: https://github.com/sharaquss/Betterfy
+license: MIT
+platform: Android
+
 ---
 
+<p class="meta">Type: <strong>{{ page.type }}</strong>  |  Platform: <strong>{{page.platform}}</strong>  |  Open Source: <a href="{{page.github}}">GitHub</a>  |  License: <strong>{{ page.license }}</strong></p>
+
+<p><strong>TECH USED: ANDROID NATIVE, ANDROID STUDIO, OPEN SOURCE STUFF ETC ETC ETC</strong></p>
+
+<p>
+    Native Android client for Spotify streaming service.
+</p>
+
+<p>
+    App is targeted for premium Spotify subscribers, who happen to have low-specs Android smartphone (as I did once). That means low performance overhead, quick booting, simplified API connectivity and way more stability.
+    It offers unique functionalities, which are only partially implemented in Desktop app and completely not available in mobile client (well, up until August 2016 official Spotify app update, that is ;[), like set of most listened tracks and albums over the course of week, month, year and account lifetime, recommendations and music taste tracking system.   
+</p>
+
+<p>
+    Application was built using modern approach to developing Android applications. 
+    Features most commonly used open source libraries in the community, like Square's Butterknife binder, Picasso, Retrofit(v2) HTTP client as well as Realm database, JUnit and Mockito testing suite.
+</p>
+
+<p>
+    Spotify communication is done via their proprietary set of APIs. 
+    Some functionalities are implemented using their SDK (like some authentication and authorization elements), but I generally tried to do things from scratch on my own.
+</p>
