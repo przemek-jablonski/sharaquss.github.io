@@ -34,7 +34,7 @@ function bindProjectNavArrows(){
 }
 
 function fadePageOut(targetHref){
-  $("#main").fadeOut(1300, function(){
+  $("#main").fadeOut(1600, function(){
     $( "#main" ).load( targetHref + " #container #main", function(response, status, xhr){
       bindProjectNavArrows();
       var stateObj = {
@@ -42,12 +42,12 @@ function fadePageOut(targetHref){
       };
       document.title = $(response).filter("title").text();
       window.history.pushState(stateObj, document.title, targetHref);
-      $("#main").fadeIn(1300);
+      $("#main").fadeIn(1600);
       bindPasswordDetect();
     });
   });
 }
 
 function fadePageIn(){
-  $("body").fadeIn(1300);
+  $("body").fadeIn(1600);
 }
