@@ -758,42 +758,43 @@ td {
   }
 
 
-
   /* ==|== media queries ====================================================== */
 
 
 
-  /*@media only screen and (max-width: 1024px) {*/
-    /*header {*/
-      /*top: 0px;*/
-      /*width: 100%;*/
-      /*left: 0px;*/
-      /*padding: 15px 0 15px;*/
-    /*}*/
+  @media only screen and (max-width: 1024px) {
 
-    /*.projects {*/
-      /*!*margin: 0 7.5px;*!*/
+    header {
+      top: 0px;
+      width: 100%;
+      left: 0px;
+      padding: 15px 0 15px;
+    }
+
+    .projects {
+      margin: 0 8px;
+      /*margin: 300px;*/
       /*margin-left: 5;*/
       /*margin-right: 5;*/
       /*margin-top: 8;*/
-    /*}*/
+    }
 
-    /*.projects li {*/
-      /*width: 50%;*/
-    /*}*/
+    .projects li {
+      width: 25%;
+    }
 
-    /*#container {*/
-      /*margin-top: 65px;*/
-    /*}*/
+    #container {
+      margin-top: 65px;
+    }
 
-    /*.projects li .project {*/
-      /*margin: 15px 7.5px 0 7.5px;*/
-    /*}*/
+    .projects li .project {
+      margin: 15px 7.5px 0 7.5px;
+    }
 
-    /*header .inner{*/
-      /*margin: 0 15px;*/
-    /*}*/
-  /*}*/
+    header .inner{
+      margin: 0 15px;
+    }
+  }
 
   @media only screen and (max-width: 600px) {
     header h1 {
@@ -883,11 +884,20 @@ td {
     }
   }
 
-  /*@media only screen and (min-width: 1900px) {*/
-    /*.projects li {*/
-      /*width: 25%;*/
+  @media only screen and (min-width: 1800px) {
+    /*body {*/
+        /*margin-left: 200px;*/
+        /*margin-right: 200px;*/
     /*}*/
-  /*}*/
+
+      /*.projects li {*/
+          /*width: 25%;*/
+      /*}*/
+      .projects {
+          margin-left: 300px;
+          margin-right: 300px;
+      }
+  }
 
 
   /* ==|== print styles ======================================================= */
