@@ -1,0 +1,12 @@
+---
+layout: post-narrow
+hero-bg-color: "#f7f7f7"
+categories: project
+
+title:  "Web Development doodling"
+uid:    webdev
+date:   2016-08-05
+type:   Web Development
+shortdesc: Group of projects of various technologies, which can be categorized as 'webdev'.
+
+---

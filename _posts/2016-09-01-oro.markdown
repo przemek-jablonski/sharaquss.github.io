@@ -1,0 +1,12 @@
+---
+layout: post-narrow
+hero-bg-color: "#f7f7f7"
+categories: project
+
+title:  "Oro the Game"
+uid:    oro
+date:   2016-09-01
+type:   Game Development
+shortdesc: Long-term development project which targets to transform original game idea into somewhat AAA gaming experience. 
+
+---

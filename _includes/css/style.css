@@ -945,11 +945,22 @@ td {
 
 .project-index-details {
   text-align: center;
+  padding: 50px;
 }
 
 .project-index-details .title {
   font-weight: bold;
   font-size: 125%;
+}
+
+.project-index-details .type {
+  font-style: italic;
+  font-size: 95%;
+}
+
+.project-index-details .shortdesc {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 

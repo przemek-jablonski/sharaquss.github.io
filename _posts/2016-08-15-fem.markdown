@@ -1,0 +1,12 @@
+---
+layout: post-narrow
+hero-bg-color: "#f7f7f7"
+categories: project
+
+title:  "Finite Element Method utils"
+uid:    fem
+date:   2016-08-15
+type:   Miscellaneous
+shortdesc: Bunch of utility tools and calculators for in-depth exploring some of the values and issues of FEM's partial differential equations.
+
+---

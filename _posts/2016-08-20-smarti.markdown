@@ -1,0 +1,12 @@
+---
+layout: post-narrow
+hero-bg-color: "#f7f7f7"
+categories: project
+
+title:  "Smartillization"
+uid:    smarti
+date:   2016-08-20
+type:   Game Development
+shortdesc: Second completed video game project. Recreating Civilization's turn based strategy systems with a little twist. 
+
+---

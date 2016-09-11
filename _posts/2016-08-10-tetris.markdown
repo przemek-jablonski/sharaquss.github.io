@@ -1,0 +1,12 @@
+---
+layout: post-narrow
+hero-bg-color: "#f7f7f7"
+categories: project
+
+title:  "HDetris"
+uid:    tetris
+date:   2016-08-10
+type:   Game Development
+shortdesc: First ever completed video game project. Applying what's best of legendary Tetris into modern style feel and visuals. 
+
+---

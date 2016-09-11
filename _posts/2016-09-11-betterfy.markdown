@@ -1,0 +1,13 @@
+---
+layout: post-narrow
+hero-bg-color: "#f7f7f7"
+categories: project
+
+title:  "Betterfy"
+uid:    betterfy
+date:   2016-09-11
+type:   Mobile
+shortdesc: Smarter Android client for Spotify streaming service. Built with Spotify SDK and their proprietary API.
+
+---
+

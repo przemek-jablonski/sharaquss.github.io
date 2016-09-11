@@ -1,0 +1,11 @@
+---
+layout: post-narrow
+hero-bg-color: "#f7f7f7"
+categories: project
+
+title:  "mini-weather-android"
+uid:    weather
+date:   2016-09-05
+type:   Mobile
+shortdesc: Lightweight, but robust in backend, weather forecast Android app.
+---
