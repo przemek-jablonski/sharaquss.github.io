@@ -287,7 +287,10 @@ td {
     display: none;
 
 
-    background: linear-gradient(215deg, #d5b1cf, #d5b7b7);
+    background: url(img/bg_transparent_1.png) top center repeat-y;
+    background-color: #f5f5f5;
+
+    /*background: linear-gradient(215deg, #d5b1cf, #d5b7b7);*/
     /*background-size: 1200% 1200%;*/
 
     /*-webkit-animation: GradientBackgroundAnimation 45s ease infinite;*/
@@ -975,32 +978,3 @@ td {
   margin-left: 20px;
   margin-right: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
