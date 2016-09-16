@@ -1,5 +1,5 @@
 ---
-layout: post-narrow
+layout: post-wide
 hero-bg-color: "#f7f7f7"
 categories: project
 
