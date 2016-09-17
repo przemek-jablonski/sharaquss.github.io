@@ -4,53 +4,45 @@ title: Portfolio
 ---
 
 <ul class="projects clearfix">
-{% for post in site.categories.project %}
-  <li>
+    {% for post in site.categories.project %}
+        <li>
+            <div class="project-item">
 
-    <div class="project">
-      <a class="cover" href="{{ post.url }}">
-        <div class="project-details">
-          <span>
-            {{ post.title }}
-          </span>
-          <span>
-            ( {{ post.type }} )
-          </span>
-          <br>
-          <span> <b>
-              View project details
-          </b> </span>
+            <div class="project">
+              <a class="cover" href="{{ post.url }}">
+                <div class="project-details">
+                  <span>
+                    {{ post.title }}
+                  </span>
+                  <span>
+                    ( {{ post.type }} )
+                  </span>
+                  <br>
+                  <span> <b>
+                      View project details
+                  </b> </span>
+                </div>
+              </a>
+              {% if post.opensource %}
+                {% if post.blackbg %}
+                  <span class="github-icon light"></span>
+                {% else %}
+                  <span class="github-icon"></span>
+                {% endif %}
+              {% endif %}
+
+              <img class="thumb" src="img/thumbs/{{ post.uid }}.jpg" />
+              <div class="aspect-two-one"></div>
+            </div>
+
+            <div class="project-index-details">
+              <p class="title">{{post.title}}</p>
+              <p class="type">{{post.type}}</p>
+              <p class="shortdesc">{{post.shortdesc}}</p>
+            </div>
+
         </div>
-      </a>
-      {% if post.opensource %}
-        {% if post.blackbg %}
-          <span class="github-icon light"></span>
-        {% else %}
-          <span class="github-icon"></span>
-        {% endif %}
-      {% endif %}
-      <!--{% if post.progress %}-->
+      </li>
 
-        <!--<span class="progress">-->
-          <!--<span class="under-construction"></span>-->
-          <!--<span class="progress-bar" style="width: {{ post.progress }}%"></span>-->
-        <!--</span>-->
-      <!--{% endif %}-->
-      <img class="thumb" src="img/thumbs/{{ post.uid }}.jpg" />
-      <div class="aspect-two-one"></div>
-    </div>
-
-    <div class="project-index-details">
-      <p class="title">{{post.title}}</p>
-      <p class="type">{{post.type}}</p>
-      <p class="shortdesc">{{post.shortdesc}}</p>
-    </div>
-
-  </li>
-{% endfor %}
+    {% endfor %}
 </ul>
-
-
-
-<!-- todo, make more global margins -->
-<!-- todo, make bigger spaces between projects (especially on bigger screens)-->
