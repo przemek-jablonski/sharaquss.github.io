@@ -7,7 +7,7 @@ title:  "Betterfy"
 uid:    betterfy
 date:   2016-09-11
 type:   Mobile
-shortdesc: Smarter Android client for Spotify streaming service. Built with Spotify SDK and their proprietary API.
+shortdesc: Native Android client for Spotify streaming service. A little bit smarter (better!). Built with Spotify SDK and their proprietary API.
 
 github: https://github.com/sharaquss/Betterfy
 opensource: https://github.com/sharaquss/Betterfy
@@ -30,11 +30,11 @@ platform: Android
 </p>
 
 <p>
-    Application was built using modern approach to developing Android applications. 
+    Application was built using modern approach to developing Android applications.
     Features most commonly used open source libraries in the community, like Square's Butterknife binder, Picasso, Retrofit(v2) HTTP client as well as Realm database, JUnit and Mockito testing suite.
 </p>
 
 <p>
-    Spotify communication is done via their proprietary set of APIs. 
+    Spotify communication is done via their proprietary set of APIs.
     Some functionalities are implemented using their SDK (like some authentication and authorization elements), but I generally tried to do things from scratch on my own.
 </p>

@@ -7,7 +7,7 @@ title:  "mini-weather-android"
 uid:    weather
 date:   2016-09-05
 type:   Mobile
-shortdesc: Lightweight, but robust in backend, weather forecast Android app.
+shortdesc: Small, lightweight, but robust in backend, Native Android weather app. First ever completed mobile app by myself (yay!).
 
 github: https://github.com/sharaquss/mini-weather-android
 opensource: https://github.com/sharaquss/mini-weather-android
@@ -21,4 +21,3 @@ platform: Android
 <p> Lightweight, but robust in backend, weather forecast Android app. <p>
 
 <p> This was my first attempt at learning and completing a project using native Android SDK (with help of a Google Developers page), so it's pretty lame, but I'm not really ashamed of it, because it works and its nice! ;)</p>
-

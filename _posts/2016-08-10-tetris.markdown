@@ -7,7 +7,7 @@ title:  "HDetris"
 uid:    tetris
 date:   2016-08-10
 type:   Game Development
-shortdesc: First ever completed video game project. Applying what's best of legendary Tetris into modern style feel and visuals. 
+shortdesc: First ever completed video game project. Applying what's best of legendary Tetris into modern style feel and visuals. In 1080p, 60fps.
 
 github: https://github.com/sharaquss/HDetris-2015
 opensource: https://github.com/sharaquss/HDetris-2015
