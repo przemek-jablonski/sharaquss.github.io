@@ -8,10 +8,11 @@ uid:    fem
 date:   2016-08-15
 type:   Miscellaneous
 shortdesc: Bunch of utility tools and calculators for in-depth exploring some of the values and issues of FEM's partial differential equations.
+tech: Java / C++, Desktop
 
 github: https://github.com/sharaquss/FEMThermalSolver2
 github2: https://github.com/sharaquss/FEM_ThermalSolver1
-opensource: https://github.com/sharaquss/FEMThermalSolver2 
+opensource: https://github.com/sharaquss/FEMThermalSolver2
 license: none
 platform: MacOSX / Linux / Windows Desktops
 
@@ -24,5 +25,3 @@ platform: MacOSX / Linux / Windows Desktops
 <p> Those are a little helpers which tend to significantly reduce time and effort during solving some thermodynamical problems using Finite Element Method.</p>
 
 <p> Calculations span across getting thermal distribution across physical mesh of given model, solving partial differential equations for Finie Elements, tracking differential boundary values on timeline of a given process etc.</p>
-
-

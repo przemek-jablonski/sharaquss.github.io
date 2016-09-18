@@ -7,7 +7,8 @@ title:  "Procedural 3D Terrain Generation"
 uid:    thesis-1
 date:   2016-09-09
 type:   Engineering Thesis Research
-shortdesc: Research and development of fully modular Procedural Algorithms family, designed for realtime 3D geometrical terrain generation. 
+shortdesc: Research and development of fully modular Procedural Algorithms family, designed for realtime 3D geometrical terrain generation.
+tech: Algorithmics, Engineering Thesis
 
 github: https://github.com/sharaquss/AdaptiveWeather
 opensource: https://github.com/sharaquss/AdaptiveWeather

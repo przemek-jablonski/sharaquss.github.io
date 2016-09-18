@@ -8,6 +8,7 @@ uid:    webdev
 date:   2016-08-05
 type:   Web Development
 shortdesc: Group of projects developed in various technologies, which can be categorized as 'webdev'. Source for this portfolio inside!
+tech: PHP / Python / Django / Symfony2 / Jekyll
 
 github: https://github.com/sharaquss/DjAngularJS
 github2: https://github.com/sharaquss/epmanagement

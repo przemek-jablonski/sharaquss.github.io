@@ -351,7 +351,13 @@ td {
     border-top: 10px solid #212121;
     border-bottom: 1px solid #fdfff8;
     position: relative;
+
     /*margin: 0 30px;*/
+  }
+
+  .header_text {
+    margin-left: 125px;
+    margin-right: 125px;
   }
 
   header h1, header .initials {
@@ -417,10 +423,13 @@ td {
   }
 
   .background-colour-project {
-      background-color: rgba(253, 255, 248, 0.25);
-      margin-left: 2px;
-      margin-right: 2px;
-      margin-bottom: 4px;
+      background-color: rgba(253, 255, 248, 0.3);
+      margin-left: 6px;
+      margin-right: 6px;
+      margin-top: 8px;
+      margin-bottom: 8px;
+
+      border: 1px solid #FBFFF8;
   }
 
   .background-colour-post-wide {
@@ -481,7 +490,8 @@ td {
   .projects {
     margin-left: 100px;
     margin-right: 100px;
-    background-color: rgba(253, 255, 248, 0.25);
+    background-color: rgba(253, 255, 248, 0.40);
+    border: 1px solid #FDFFF8;
     /*margin: 0 15px ;*/
   }
 
@@ -801,8 +811,8 @@ td {
             /*width: 25%;*/
         /*}*/
         .projects {
-            margin-left: 300px;
-            margin-right: 300px;
+            margin-left: 175px;
+            margin-right: 175px;
         }
   }
 
@@ -1001,22 +1011,6 @@ td {
   text-align: center;
 }
 
-.project-index-details .title {
-  font-weight: bold;
-  font-size: 125%;
-}
-
-.project-index-details .type {
-  font-style: italic;
-  font-size: 95%;
-}
-
-.project-index-details .shortdesc {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-
 
 /* custom fonts */
 @font-face {
@@ -1038,7 +1032,7 @@ td {
 
 @font-face {
     font-family: "Avenir";
-    src: url("fonts/AvenirNext-Bold.ttf");
+    src: url("fonts/AvenirNext-Italic.ttf");
     font-style: italic;
 }
 
@@ -1048,17 +1042,20 @@ td {
 }
 
 .avenir_bold {
-
+    font-weight: bold;
+    color: #212121;
+    font-size: 115%;
 }
 
 .avenir_bolder {
 
 }
 
-.avenir_italic {
+.avenir_italic_darker {
+    margin-top: -12px;
     font-style:italic;
-    color: #797A78;
-    font-size: 90%;
+    color: #212121;
+    font-size: 95%;
 }
 
 /*

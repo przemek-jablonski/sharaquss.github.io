@@ -7,7 +7,8 @@ title:  "Oro the Game"
 uid:    oro
 date:   2016-09-01
 type:   Game Development
-shortdesc: Long-term gamedev project which targets to transform original game idea into somewhat AAA gaming feel. Developed in Unity. 
+shortdesc: Long-term gamedev project which targets to transform original game idea into somewhat AAA gaming feel. Developed in Unity.
+tech: Unity3D, Gamedev
 
 github: https://github.com/sharaquss/AdaptiveWeather
 opensource: https://github.com/sharaquss/AdaptiveWeather

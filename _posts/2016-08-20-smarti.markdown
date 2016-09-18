@@ -7,7 +7,8 @@ title:  "Smartillization"
 uid:    smarti
 date:   2016-08-20
 type:   Game Development
-shortdesc: Second completed video game project. Recreating Sid Meyer's Civilization turn based strategy system. With a little bit of tweaks. 
+shortdesc: Second completed video game project. Recreating Sid Meyer's Civilization turn based strategy system. With a little bit of tweaks.
+tech: LibGDX, Gamedev, Desktop
 
 github: https://github.com/sharaquss/SmartilizationSource
 opensource: https://github.com/sharaquss/SmartilizationSource

@@ -8,6 +8,7 @@ uid:    betterfy
 date:   2016-09-11
 type:   Mobile
 shortdesc: Native Android client for Spotify streaming service. A little bit smarter (better!). Built with Spotify SDK and their proprietary API.
+tech: Android SDK, Modern Android Dev
 
 github: https://github.com/sharaquss/Betterfy
 opensource: https://github.com/sharaquss/Betterfy

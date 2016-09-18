@@ -8,6 +8,7 @@ uid:    weather
 date:   2016-09-05
 type:   Mobile
 shortdesc: Small, lightweight, but robust in backend, Native Android weather app. First ever completed mobile app by myself (yay!).
+tech: Android SDK, Android Studio
 
 github: https://github.com/sharaquss/mini-weather-android
 opensource: https://github.com/sharaquss/mini-weather-android
