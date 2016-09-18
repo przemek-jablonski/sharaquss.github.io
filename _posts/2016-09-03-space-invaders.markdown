@@ -7,7 +7,7 @@ title:  "Mobile Space Invaders"
 uid:    space-invaders
 date:   2016-09-03
 type:   Mobile / Game Development
-shortdesc: Mobile app (game) - classic Space Invaders, visually translated to accommodate latter-day and brought to Android (and iOS). Written in LibGDX.
+shortdesc: Mobile app (game) - classic Space Invaders, visually translated to accommodate latter-day and brought to Android (and iOS).
 
 
 github: https://github.com/sharaquss/AdaptiveWeather

@@ -791,6 +791,20 @@ td {
 
   /* ==|== media queries ====================================================== */
 
+  @media only screen and (max-width: 1800px) {
+      /*body {*/
+          /*margin-left: 200px;*/
+          /*margin-right: 200px;*/
+      /*}*/
+
+        /*.projects li {*/
+            /*width: 25%;*/
+        /*}*/
+        .projects {
+            margin-left: 300px;
+            margin-right: 300px;
+        }
+  }
 
 
   @media only screen and (max-width: 1024px) {
@@ -799,7 +813,7 @@ td {
       top: 0px;
       width: 100%;
       left: 0px;
-      /*padding: 15px 0 15px;*/
+      padding: 15px 0 15px;
     }
 
     .projects {
@@ -810,9 +824,9 @@ td {
       /*margin-top: 8;*/
     }
 
-    .projects li {
+    /*.projects li {
       width: 25%;
-    }
+    }*/
 
     #container {
       margin-top: 65px;
@@ -855,7 +869,7 @@ td {
 
     #container{
       margin-bottom:0px;
-      margin: 50px;
+      margin: 15px;
     }
 
     .next-project{
@@ -886,6 +900,10 @@ td {
     h2{
     }
 
+    .projects li {
+        width: 50%;
+    }
+
     .next-project, .prev-project{
       height:14px;
       width:14px;
@@ -910,24 +928,15 @@ td {
       display: block;
     }
 
+    .projects {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
     .projects li {
       width: 100%;
     }
-  }
-
-  @media only screen and (min-width: 1800px) {
-    /*body {*/
-        /*margin-left: 200px;*/
-        /*margin-right: 200px;*/
-    /*}*/
-
-      /*.projects li {*/
-          /*width: 25%;*/
-      /*}*/
-      .projects {
-          margin-left: 300px;
-          margin-right: 300px;
-      }
   }
 
 
@@ -1009,6 +1018,7 @@ td {
 
 
 
+/* custom fonts */
 @font-face {
     font-family: "Avenir";
     src: url("fonts/AvenirNext-Regular.ttf");
@@ -1031,3 +1041,34 @@ td {
     src: url("fonts/AvenirNext-Bold.ttf");
     font-style: italic;
 }
+
+/* custom fonts pseudo-classes */
+.avenir {
+
+}
+
+.avenir_bold {
+
+}
+
+.avenir_bolder {
+
+}
+
+.avenir_italic {
+    font-style:italic;
+    color: #797A78;
+    font-size: 90%;
+}
+
+/*
+.restricting {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 2; /*(N) (number of lines)
+   line-height: 1.1;
+   max-height: 2*1.1;
+}
+*/

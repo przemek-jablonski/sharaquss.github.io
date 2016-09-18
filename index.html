@@ -8,40 +8,44 @@ title: Portfolio
         <li>
             <div class="background-colour-project">
 
-            <div class="project">
-              <a class="cover" href="{{ post.url }}">
-                <div class="project-details">
-                  <span>
-                    {{ post.title }}
-                  </span>
-                  <span>
-                    ( {{ post.type }} )
-                  </span>
-                  <br>
-                  <span> <b>
-                      View project details
-                  </b> </span>
+                <div class="project">
+                  <a class="cover" href="{{ post.url }}">
+                    <div class="project-details">
+                      <span>
+                        {{ post.title }}
+                      </span>
+
+                      <div class="avenir_italic">
+                          <span>
+                              ( {{ post.type }} )
+                        </span>
+                      </div>
+
+                      <br>
+                      <span> <b>
+                          View project details
+                      </b> </span>
+                    </div>
+                  </a>
+                  {% if post.opensource %}
+                    {% if post.blackbg %}
+                      <span class="github-icon light"></span>
+                    {% else %}
+                      <span class="github-icon"></span>
+                    {% endif %}
+                  {% endif %}
+
+                  <img class="thumb" src="img/thumbs/{{ post.uid }}.jpg" />
+                  <div class="aspect-two-one"></div>
                 </div>
-              </a>
-              {% if post.opensource %}
-                {% if post.blackbg %}
-                  <span class="github-icon light"></span>
-                {% else %}
-                  <span class="github-icon"></span>
-                {% endif %}
-              {% endif %}
 
-              <img class="thumb" src="img/thumbs/{{ post.uid }}.jpg" />
-              <div class="aspect-two-one"></div>
+                <div class="project-index-details">
+                  <p class="title">{{post.title}}</p>
+                  <p class="avenir_italic">{{post.type}}</p>
+                  <p class="shortdesc restricting">{{post.shortdesc}}</p>
+                </div>
+
             </div>
-
-            <div class="project-index-details">
-              <p class="title">{{post.title}}</p>
-              <p class="type">{{post.type}}</p>
-              <p class="shortdesc">{{post.shortdesc}}</p>
-            </div>
-
-        </div>
       </li>
 
     {% endfor %}

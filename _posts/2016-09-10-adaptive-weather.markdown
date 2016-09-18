@@ -7,7 +7,7 @@ title:  "Adaptive Weather"
 uid:    adaptive-weather
 date:   2016-09-10
 type:   Mobile
-shortdesc: Native Android app which dynamically queries weather services' APIs. Alerts user if some sudden weather changes are approaching.
+shortdesc: Native Android app which dynamically queries weather services' APIs. Alerts user if some sudden weather changes are coming.
 github: https://github.com/sharaquss/AdaptiveWeather
 opensource: https://github.com/sharaquss/AdaptiveWeather
 license: MIT
