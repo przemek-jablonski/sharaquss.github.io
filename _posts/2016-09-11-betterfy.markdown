@@ -9,6 +9,7 @@ date:   2016-09-11
 type:   Mobile
 shortdesc: Native Android client for Spotify streaming service. A little bit smarter (better!). Built with Spotify SDK and their proprietary API.
 tech: Android SDK, Modern Android Dev
+techdetails: Android SDK, Dagger, Retrofit2, Picasso, Realm.io, GSON, Butterknife, Android Studio
 
 github: https://github.com/sharaquss/Betterfy
 opensource: https://github.com/sharaquss/Betterfy
@@ -17,22 +18,25 @@ platform: Android
 
 ---
 
-<p class="meta">Type: <strong>{{ page.type }}</strong>  |  Platform: <strong>{{page.platform}}</strong>  |  Open Source: <a href="{{page.github}}">GitHub</a>  |  License: <strong>{{ page.license }}</strong></p>
 
-<p><strong>TECH USED: ANDROID NATIVE, ANDROID STUDIO, OPEN SOURCE STUFF ETC ETC ETC</strong></p>
-
+<p3>Description:</p3>
+<div class="separator"></div>
 <p>
     Native Android client for Spotify streaming service.
 </p>
 
 <p>
-    App is targeted for premium Spotify subscribers, who happen to have low-specs Android smartphone (as I did once). That means low performance overhead, quick booting, simplified API connectivity and way more stability.
-    It offers unique functionalities, which are only partially implemented in Desktop app and completely not available in mobile client (well, up until August 2016 official Spotify app update, that is ;[), like set of most listened tracks and albums over the course of week, month, year and account lifetime, recommendations and music taste tracking system.   
+    App is targeted for premium Spotify subscribers, who happen to have low-specs Android smartphone. Low performance overhead, quick booting, simplified API connectivity and way more stability.
+    Offers unique functionalities, which are absent in mobile client, like set of <b>most listened tracks</b> and albums over the course of week, month, year and account lifetime, <b>recommendations</b> and <b>music taste</b> tracking system.   
 </p>
 
+
+
+<p3>Development:</p3>
+<div class="separator"></div>
 <p>
-    Application was built using modern approach to developing Android applications.
-    Features most commonly used open source libraries in the community, like Square's Butterknife binder, Picasso, Retrofit(v2) HTTP client as well as Realm database, JUnit and Mockito testing suite.
+    Application was built using <b>modern approach</b> to developing Android applications.
+    Features most commonly used open source libraries in the community, like Square's <b>Butterknife</b> binder, Picasso, <b>Retrofit(v2)</b> HTTP client as well as <b>Realm</b> database, <b>JUnit and Mockito testing</b> suite.
 </p>
 
 <p>

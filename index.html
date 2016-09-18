@@ -11,20 +11,19 @@ title: Portfolio
                 <div class="project">
                   <a class="cover" href="{{ post.url }}">
                     <div class="project-details">
+
                       <span>
                         {{ post.title }}
                       </span>
-
-                      <div class="avenir_italic">
-                          <span>
-                              ( {{ post.type }} )
-                        </span>
-                      </div>
-
+                      <span>
+                        <div class="avenir_italic_bold">
+                          ({{ post.type }})
+                        </div>
+                      </span>
                       <br>
-                      <span> <b>
-                          View project details
-                      </b> </span>
+                      <span>
+                          <b>View project details</b>
+                      </span>
                     </div>
                   </a>
                   {% if post.opensource %}
@@ -42,7 +41,7 @@ title: Portfolio
                 <div class="project-index-details">
                   <p class="avenir_bold">{{post.title}}</p>
                   <!-- <p class="avenir_italic">{{post.type}}</p> -->
-                  <p class="avenir_italic_darker">{{post.tech}}</p>
+                  <p class="avenir_italic_subtitle">{{post.tech}}</p>
                   <p class="shortdesc restricting">{{post.shortdesc}}</p>
                 </div>
 

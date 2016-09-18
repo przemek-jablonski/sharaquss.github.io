@@ -286,7 +286,7 @@ td {
     min-width: 100%;
     display: none;
 
-    background: url(img/bg_transparent_full_2.png) top center no-repeat,
+    background: url(img/bg_transparent_full_compressed_2.png) top center no-repeat,
                 url(img/bg_transparent_line_1.png) top center repeat-y;
 
     background-color: #fdfff8;
@@ -356,8 +356,8 @@ td {
   }
 
   .header_text {
-    margin-left: 125px;
-    margin-right: 125px;
+    margin-left: 80px;
+    margin-right: 80px;
   }
 
   header h1, header .initials {
@@ -433,7 +433,7 @@ td {
   }
 
   .background-colour-post-wide {
-    background-color: rgba(253, 255, 248, 0.35);
+    background-color: rgba(253, 255, 248, 0.7);
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 25px;
@@ -491,7 +491,7 @@ td {
     margin-left: 100px;
     margin-right: 100px;
     background-color: rgba(253, 255, 248, 0.40);
-    border: 1px solid #FDFFF8;
+    /*border: 1px solid rgba(253, 255, 248, 0.40);*/
     /*margin: 0 15px ;*/
   }
 
@@ -633,10 +633,10 @@ td {
   }
 
   .post p{
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 18px;
     max-width: 620px;
-    color: #494949;
+    color: black;
     margin-bottom: 20px;
     margin-right: auto;
     margin-left: auto;
@@ -644,10 +644,46 @@ td {
     clear: both;
   }
 
+  .post p2 {
+      font-size: 13px;
+      line-height: 18px;
+      max-width: 620px;
+      color: #212121;
+      margin-bottom: 20px;
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+      clear: both;
+      font-weight: bold;
+  }
+
+  .post p3 {
+    font-size: 13px;
+    line-height: 18px;
+    max-width: 620px;
+    color: #7a7a7a;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    /*margin-right: auto;
+    margin-left: auto;*/
+    display: block;
+    clear: both;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+.post .separator {
+  width: 320px;
+  height: 1px;
+  margin: 5px auto 5px auto;
+  background: #7a7a7a;
+}
+
+
   .post .meta{
-    color: #eee8e8;
+    color: #212121;
     font-size: 12px;
-    margin-bottom: 100px;
+    margin-bottom: 25px;
   }
 
     .additional-margins {
@@ -701,9 +737,10 @@ td {
 
   .post .meta a,
   .post .meta strong{
-    color: #494949;
+    color: #7a7a7a;
     font-size: 12px;
     font-weight: bold;
+    font-style: italic;
   }
   .post .meta a:hover{
     color: blue;
@@ -711,8 +748,8 @@ td {
   .separator {
     width: 460px;
     height: 1px;
-    margin: 30px auto 30px auto;
-    background: #444;
+    margin: 15px auto 15px auto;
+    background: #7a7a7a;
   }
 
   .post-wide{
@@ -722,7 +759,7 @@ td {
   }
 
   .post-wide-hero{
-    margin-top:30px;
+    margin-top:10px;
     width:100%;
     height:350px;
     background-position: center center;
@@ -1036,6 +1073,13 @@ td {
     font-style: italic;
 }
 
+@@font-face {
+    font-family: "Avenir";
+    src: url("fonts/AvenirNext-BoldItalic.ttf");
+    font-style:italic;
+    font-weight: bold;
+}
+
 /* custom fonts pseudo-classes */
 .avenir {
 
@@ -1051,12 +1095,41 @@ td {
 
 }
 
+.avenir_italic {
+    font-style: italic;
+    color: #212121;
+}
+
 .avenir_italic_darker {
     margin-top: -12px;
     font-style:italic;
     color: #212121;
     font-size: 95%;
 }
+
+.avenir_italic_subtitle {
+    margin-top: -12px;
+    color: #7a7a7a;
+    font-style:italic;
+    font-weight: bold;
+    font-size: 95%;
+}
+
+
+.avenir_italic_bold {
+    color: #7a7a7a;
+    font-style:italic;
+    font-weight: bold;
+    font-size: 95%;
+}
+
+.avenir_italic_bolder {
+    color: #7a7a7a;
+    font-style:italic;
+    font-weight: bold;
+    font-size: 125%;
+}
+
 
 /*
 .restricting {

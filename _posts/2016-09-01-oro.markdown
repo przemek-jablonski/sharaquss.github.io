@@ -9,6 +9,7 @@ date:   2016-09-01
 type:   Game Development
 shortdesc: Long-term gamedev project which targets to transform original game idea into somewhat AAA gaming feel. Developed in Unity.
 tech: Unity3D, Gamedev
+techdetails: C#, Unity3D
 
 github: https://github.com/sharaquss/AdaptiveWeather
 opensource: https://github.com/sharaquss/AdaptiveWeather
@@ -16,9 +17,6 @@ license: MIT
 platform: Mac OSX / Linux
 
 ---
-
-<p class="meta">Type: <strong>{{ page.type }}</strong>  |  Platform: <strong>{{page.platform}}</strong>  |  Open Source: <a href="{{page.github}}">GitHub</a>  |  License: <strong>{{ page.license }}</strong></p>
-
 <p> Long-term development project which targets to transform original game idea into somewhat AAA gaming experience. <p>
 
 <p> The idea is to create 3D third-person shooter which redeeming qualities would be Diablo-esque style gameplay, randomly generated user assets (like in Borderlands) and lots of playable content.</p>

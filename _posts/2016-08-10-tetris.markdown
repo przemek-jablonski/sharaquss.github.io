@@ -9,6 +9,7 @@ date:   2016-08-10
 type:   Game Development
 shortdesc: First ever completed video game project. Applying what's best of legendary Tetris into modern style feel and visuals. In 1080p, 60fps.
 tech: C++, SFML, Gamedev
+techdetails: C++, SFML, Visual Studio
 
 github: https://github.com/sharaquss/HDetris-2015
 opensource: https://github.com/sharaquss/HDetris-2015
@@ -16,9 +17,6 @@ license: none
 platform: Windows desktop
 
 ---
-
-<p class="meta">Type: <strong>{{ page.type }}</strong>  |  Platform: <strong>{{page.platform}}</strong>  |  Open Source: <a href="{{page.github}}">GitHub</a>  |  License: <strong>{{ page.license }}</strong></p>
-
 <p> First ever completed video game project. Applying what's best of legendary Tetris into modern style feel and visuals.  <p>
 
 <p> Developed in C++ with SFML library and with Visual Studio Express 2015</p>

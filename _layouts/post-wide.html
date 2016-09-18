@@ -14,10 +14,18 @@ layout: default
 
   <div class="post post-wide">
       <div class = "background-colour-post-wide">
-        <h2>{{ page.title }}</h2>
-        <div class="separator"></div>
+          <h2>{{ page.title }}</h2>
+          <p class="meta">Type: <strong>{{ page.type }}</strong>  |  Platform: <strong>{{page.platform}}</strong>  |  Open Source: <a href="{{page.github}}">GitHub</a>  {% if page.github2 %}<a href="{{page.github2}}">GitHub(2)</a> {% endif %} {% if page.github3 %}<a href="{{page.github3}}">GitHub(3)</a> {% endif %}  |  License: <strong>{{ page.license }}</strong></p>
+          Technologies: <div class="avenir_italic_bolder"> {{page.techdetails}} </div>
+          <!-- <div class="separator"></div> -->
+      </div>
+
+
+      <div class = "background-colour-post-wide">
+
         {{ content }}
       </div>
+
   </div>
 
 </div>
