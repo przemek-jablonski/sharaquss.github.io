@@ -1,6 +1,6 @@
 ---
 layout: post-wide
-hero-bg-color: "#f7f7f7"
+hero-bg-color: "#212121"
 categories: project
 
 title:  "Betterfy"
