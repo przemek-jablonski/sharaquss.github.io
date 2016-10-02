@@ -1066,6 +1066,7 @@ td {
 @font-face {
     font-family: "Avenir";
     src: url("fonts/AvenirNext-Regular.ttf");
+    font-weight: normal;
 }
 
 @font-face {
@@ -1105,7 +1106,7 @@ td {
 }
 
 .avenir_bolder {
-    font-weight: bold;
+    font-weight: normal;
     color: #212121;
     font-size: 100%;
 }
