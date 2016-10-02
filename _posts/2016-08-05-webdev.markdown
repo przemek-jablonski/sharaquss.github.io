@@ -16,7 +16,7 @@ github2: https://github.com/sharaquss/epmanagement
 github3: https://github.com/sharaquss/PortfolioPage
 opensource: https://github.com/sharaquss/PortfolioPage
 license: MIT
-platform: Android
+platform: Web
 
 ---
 <p> Group of projects of various technologies, which can be categorized as 'webdev'. <p>
