@@ -20,3 +20,22 @@ platform: Windows / OSX / Linux
 <p>Second completed video game project. Recreating Civilization's turn based strategy systems with a little twist. </p>
 
 <p>Basically tried to write entire turn based strategy game from scratch, inspired by classic Sid Meyer's Civilization games.</p>
+
+
+<div class="showcase">
+	<img src="/img/smarti/1.jpg" alt="1.jpg">
+</div>
+
+<div class="showcase">
+	<img src="/img/smarti/2.jpg" alt="2.jpg">
+</div>
+
+
+<div class="showcase">
+	<img src="/img/smarti/3.jpg" alt="3.jpg">
+</div>
+
+
+<div class="showcase">
+	<img src="/img/smarti/4.jpg" alt="4.jpg">
+</div>

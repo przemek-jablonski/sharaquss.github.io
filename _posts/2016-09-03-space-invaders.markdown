@@ -22,3 +22,23 @@ platform: Android (iOS / Desktop/ HTML5 ready)
 <p> After learning quite a lot and completing few projects in LibGDX (gamedev/multimedia library) and Android SDK, I was wondering what would happen if I combined those two together.</p>
 
 <p> This is the result. Calibrated for SDKs > 4.1 and screens about 5" size.</p>
+
+
+
+<div class="showcase">
+	<img src="/img/space-invaders/1.jpg" alt="1.jpg">
+</div>
+
+<div class="showcase">
+	<img src="/img/space-invaders/2.jpg" alt="2.jpg">
+</div>
+
+
+<div class="showcase">
+	<img src="/img/space-invaders/3.jpg" alt="3.jpg">
+</div>
+
+
+<div class="showcase">
+	<img src="/img/space-invaders/4.jpg" alt="4.jpg">
+</div>

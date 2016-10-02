@@ -22,3 +22,23 @@ platform: Windows desktop
 <p> Developed in C++ with SFML library and with Visual Studio Express 2015</p>
 
 <p> Apart from gameplay and UI programming, I also designed and painted graphical assets using Wacom Tablet in Photoshop.</p>
+
+
+
+<div class="showcase">
+	<img src="/img/tetris/1.jpg" alt="1.jpg">
+</div>
+
+<div class="showcase">
+	<img src="/img/tetris/2.jpg" alt="2.jpg">
+</div>
+
+
+<div class="showcase">
+	<img src="/img/tetris/3.jpg" alt="3.jpg">
+</div>
+
+
+<div class="showcase">
+	<img src="/img/tetris/4.jpg" alt="4.jpg">
+</div>

@@ -43,3 +43,21 @@ platform: Android
     Spotify communication is done via their proprietary set of APIs.
     Some functionalities are implemented using their SDK (like some authentication and authorization elements), but I generally tried to do things from scratch on my own.
 </p>
+
+<div class="showcase">
+	<img src="/img/betterfy/1.jpg" alt="1.jpg">
+</div>
+
+<div class="showcase">
+	<img src="/img/betterfy/2.jpg" alt="2.jpg">
+</div>
+
+
+<div class="showcase">
+	<img src="/img/betterfy/3.jpg" alt="3.jpg">
+</div>
+
+
+<div class="showcase">
+	<img src="/img/betterfy/4.jpg" alt="4.jpg">
+</div>
