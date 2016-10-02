@@ -1,6 +1,6 @@
 ---
 layout: post-wide
-hero-bg-color: "#f7f7f7"
+hero-bg-color: "#2b1604"
 categories: project
 
 title:  "Oro the Game"

@@ -1,6 +1,6 @@
 ---
 layout: post-wide
-hero-bg-color: "#f7f7f7"
+hero-bg-color: "#340610"
 categories: project
 
 title:  "Mobile Space Invaders"
