@@ -1115,6 +1115,26 @@ td {
     font-size: 100%;
 }
 
+.avenir_bolder_big {
+    font-weight: normal;
+    font-style: normal;
+    color: #212121;
+    font-size: 110%;
+}
+
+.avenir_bolder_big a {
+    font-weight: bold;
+    color: #db4d79;
+}
+
+.avenir_bolder_pink {
+    font-weight: normal;
+    font-style: normal;
+    color: #db4d79;
+    font-size: 110%;
+}
+
+
 .avenir_italic {
     font-style: italic;
     color: #212121;
