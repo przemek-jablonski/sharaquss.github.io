@@ -1105,7 +1105,9 @@ td {
 }
 
 .avenir_bolder {
-
+    font-weight: bold;
+    color: #212121;
+    font-size: 100%;
 }
 
 .avenir_italic {
