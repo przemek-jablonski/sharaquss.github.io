@@ -779,12 +779,14 @@ td {
 
   .post-wide .showcase-mobile img {
       max-width: 50%;
-      margin-top: 50px;
+      margin-top: 15px;
+      margin-bottom: 15px
   }
 
   .post-wide .showcase-mobile-big img {
       max-width: 70%;
-      margin-top: 50px;
+      margin-top: 15px;
+      margin-bottom: 15px
   }
 
 
