@@ -777,6 +777,14 @@ td {
     max-width: 100%;
   }
 
+  .post-wide .showcase-mobile img {
+      max-width: 50%;
+  }
+
+  .post-wide .showcase-mobile-big img {
+      max-width: 70%;
+  }
+
 
   /* ==|== non-semantic helper classes ======================================== */
   .ir {

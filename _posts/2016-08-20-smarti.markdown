@@ -31,7 +31,7 @@ platform: Windows / OSX / Linux
 </div>
 
 
-<div class="showcase">
+<div class="showcase-mobile-big">
 	<img src="/img/smarti/3.jpg" alt="3.jpg">
 </div>
 

@@ -25,20 +25,20 @@ platform: Android (iOS / Desktop/ HTML5 ready)
 
 
 
-<div class="showcase">
+<div class="showcase-mobile-big">
 	<img src="/img/space-invaders/1.jpg" alt="1.jpg">
 </div>
 
-<div class="showcase">
+<div class="showcase-mobile">
 	<img src="/img/space-invaders/2.jpg" alt="2.jpg">
 </div>
 
 
-<div class="showcase">
+<div class="showcase-mobile">
 	<img src="/img/space-invaders/3.jpg" alt="3.jpg">
 </div>
 
 
-<div class="showcase">
+<div class="showcase-mobile">
 	<img src="/img/space-invaders/4.jpg" alt="4.jpg">
 </div>
