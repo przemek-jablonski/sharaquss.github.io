@@ -441,6 +441,14 @@ td {
     margin-bottom: 25px;
   }
 
+  .background-colour-post-about {
+    background-color: rgba(253, 255, 248, 0.7);
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
   .project .progress{
     position: absolute;
     bottom:0px;
